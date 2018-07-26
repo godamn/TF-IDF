@@ -1,12 +1,11 @@
+from gensim import corpora
+from gensim import models
 import re
 import json
 import jieba
 import datetime
-from sklearn.feature_extraction.text import TfidfVectorizer
-
 
 def get_corpus():
-
     names = []
     contents = []
     path = "./data./bd_top3_sample_20180710.json"
@@ -21,7 +20,6 @@ def get_corpus():
             contents.append(desc)
     return names, contents
 
-
 def get_stopwords():
 
     stopwords = []
@@ -31,7 +29,6 @@ def get_stopwords():
         for line in lines:
             stopwords.append(line.strip())
     return stopwords
-
 
 def pre_process(text):
 
@@ -45,36 +42,41 @@ def pre_process(text):
     return filtered
 
 
-def tfidf(corpus):
+def getCorpus():
+    name, contents = get_corpus()
+    Corpus_list = []
+    for i in range(len(contents)):
+        Corpus_list.append(pre_process(contents[i]))
+    return name, Corpus_list
 
-    vectorizer = TfidfVectorizer(analyzer=pre_process)
-    tf_idf = vectorizer.fit_transform(corpus)
-    print(tf_idf.shape)
-    words = vectorizer.get_feature_names()
-    weights = tf_idf.toarray()
-    return words, weights
-
-
+def train():
 def main():
 
-    names, contents = get_corpus()
     start = datetime.datetime.now()
-    words, weights = tfidf(contents)
-    path = "./data./result_with_sklearn.txt"
+    names, Corpus_list = getCorpus()
+    path = "./data./result_with_gensim.txt"
+    dictionary = corpora.Dictionary(Corpus_list)
+    corpus = [dictionary.doc2bow(text) for text in Corpus_list]
+    id2word = {}
+    tfidf = models.TfidfModel(corpus = Corpus_list, id2word=id2word, dictionary=dictionary)
+    #corpus_tfidf = tfidf[corpus]
+
     with open(path, 'w', encoding='utf-8') as f:
-        for i in range(len(weights)):
-            scores = {}
+        for i in range(len(names)):
             print("Top words in", names[i])
             f.write("Top words in " + names[i] + "\n")
-            for j in range(len(words)):
-                if weights[i][j]:
-                    scores[words[j]] = weights[i][j]
-            sorted_words = sorted(scores.items(), key=lambda x: x[1], reverse=True)
-            for word, score in sorted_words[:10]:
+            test_corpus = dictionary.doc2bow(Corpus_list[i])
+            test_corpus_tfidf = tfidf[test_corpus]
+            test_corpus_tfidf = sorted(test_corpus_tfidf, key=lambda item: item[1], reverse=True)
+            id2token = dict(zip(dictionary.token2id.values(), dictionary.token2id.keys()))
+            for j in range(10):
+                word = id2token[test_corpus_tfidf[j][0]]
+                score = test_corpus_tfidf[j][1]
                 print("\tWord: %s, TF-IDF: %.5f" % (word, score))
                 f.write("\tWord: " + word + ", TF-IDF: " + str(round(score, 5)) + "\n")
+
     end = datetime.datetime.now()
-    print ("Totle Time: ", (end - start).total_seconds())
+    print("Totle Time: ",(end - start).total_seconds())
 
 if __name__ == "__main__":
     main()

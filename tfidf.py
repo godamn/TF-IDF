@@ -23,7 +23,7 @@ def get_stopwords():
 # 对句子进行分词
 def pre_process(text):
 
-    tokens = jieba.lcut(text)
+    tokens = jieba.lcut(text, HMM=True)
     striped = [word.strip() for word in tokens]
     number_pattern = "^\d*$"
     district_pattern = u'[\u4e00-\u9fa5]{1,7}?(?:省|自治区|市|区|县|镇|村|街|路)$'
