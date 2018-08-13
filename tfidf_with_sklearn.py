@@ -11,16 +11,17 @@ def get_corpus():
     print("get corpos...")
     names = []
     contents = []
-    path = "./data./bd_top3_sample_20180710.json"
+    path = "./data./bd_top3_random10000_sample.json"
     with open(path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         for line in lines:
             dict = json.loads(line)
-            names.append(dict['name'])
-            desc = ""
-            for item in dict['content']:
-                desc = desc + item['desc'] + "\n"
-            contents.append(desc)
+            if 'name' in dict.keys() and 'content' in dict.keys():
+                names.append(dict['name'])
+                desc = ""
+                for item in dict['content']:
+                    desc = desc + item['desc'] + "\n"
+                contents.append(desc)
     return names, contents
 
 #加载停用词表
@@ -58,7 +59,7 @@ def tfidf(corpus):
 
 
 def main():
-    path = "./output./100_result_with_sklearn.txt"
+    path = "./output./10000_result_origin.txt"
     with open(path, 'w', encoding='utf-8') as f:
         print("Getting Corpus...")
         start = datetime.datetime.now()

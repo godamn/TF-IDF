@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a15d4f61-638b-4491-8d5c-f83765ce580e" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Province_city_process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/全国省市区县地名.scel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/哈工大停用词表.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/四川大学机器智能实验室停用词库.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/百度停用词表.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfidfV2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfidf_with_gensim.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf_with_gensim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlpir_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlpir_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfidf_with_gensim.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf_with_gensim_nlpir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfidf_with_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf_with_sklearn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="thulac_version.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thulac_version.py">
+      <file leaf-file-name="gensim_nlpir_version.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gensim_nlpir_version.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" selection-start-line="8" selection-end-line="23" />
+            <state relative-caret-position="209">
+              <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,44 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nlpir_version.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlpir_version.py">
+      <file leaf-file-name="get_business.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_business.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/pynlpir/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2983">
-              <caret line="163" column="72" selection-start-line="163" selection-start-column="72" selection-end-line="163" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tfidf_with_gensim.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tfidf_with_gensim.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tfidf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="684">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -77,14 +40,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debug_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug_test.py">
+      <file leaf-file-name="gensim_nlpir_versionV3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gensim_nlpir_versionV3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="829">
+              <caret line="163" column="40" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#19#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gensim_nlpir_versionV2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gensim_nlpir_versionV2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="53" />
+              <folding>
+                <element signature="e#19#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_bd_sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasample/get_bd_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_treading.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_treading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tfidf_with_gensim_nlpir.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tfidf_with_gensim_nlpir.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -92,11 +94,32 @@
       <file leaf-file-name="tfidf_with_sklearn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tfidf_with_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+            <state relative-caret-position="1710">
+              <caret line="96" column="11" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="11" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gensim_nlpir_versionV4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gensim_nlpir_versionV4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+              <folding>
+                <element signature="e#19#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/gensim/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21945">
+              <caret line="1159" column="72" selection-start-line="1159" selection-start-column="72" selection-end-line="1159" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -109,6 +132,13 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ParagraphProcess</find>
+      <find>get_corpus</find>
+      <find>psutil</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,14 +166,29 @@
         <option value="$PROJECT_DIR$/tfidfV2.py" />
         <option value="$PROJECT_DIR$/jieba_and_ltp_version.py" />
         <option value="$PROJECT_DIR$/debug_test.py" />
-        <option value="$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/pynlpir/__init__.py" />
+        <option value="$PROJECT_DIR$/datasample/get_corpus_test.py" />
+        <option value="$PROJECT_DIR$/output/sub_set.py" />
+        <option value="$PROJECT_DIR$/tfidf_with_sklearn.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/word_filter.py" />
+        <option value="$PROJECT_DIR$/thread_version.py" />
+        <option value="$PROJECT_DIR$/datasample/get_random_id.py" />
+        <option value="$PROJECT_DIR$/datasample/get_bd_sample.py" />
+        <option value="$PROJECT_DIR$/tfidf_with_gensim_nlpir.py" />
         <option value="$PROJECT_DIR$/nlpir_version.py" />
+        <option value="$PROJECT_DIR$/gensim_nlpir_versionV2.py" />
+        <option value="$PROJECT_DIR$/gensim_nlpir_versionV3.py" />
+        <option value="$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/pynlpir/__init__.py" />
+        <option value="$PROJECT_DIR$/mutiprocessing.py" />
+        <option value="$PROJECT_DIR$/test_treading.py" />
+        <option value="$PROJECT_DIR$/gensim_nlpir_version.py" />
+        <option value="$PROJECT_DIR$/get_business.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1215" />
+    <option name="width" value="1928" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,20 +204,23 @@
               <item name="tf-idf" type="b2602c69:ProjectViewProjectNode" />
               <item name="tf-idf" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tf-idf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tf-idf" type="462c0819:PsiDirectoryNode" />
-              <item name="ltp_data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo3.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -192,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nlpir_version">
-    <configuration name="debug_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.get_business">
+    <configuration name="gensim_nlpir_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf-idf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,13 +252,13 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gensim_nlpir_version.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="jieba_and_ltp_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gensim_nlpir_versionV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf-idf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,13 +270,13 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jieba_and_ltp_version.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gensim_nlpir_versionV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="nlpir_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_business" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf-idf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,31 +288,13 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PycharmProject\tf-idf\nlpir_version.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="nlpir_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tf-idf" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Administrator\Anaconda3\envs\tensorflow\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlpir_version.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_business.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mutiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tf-idf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,26 +306,44 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_version.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mutiprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_treading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tf-idf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\Anaconda3\envs\tensorflow\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_treading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.nlpir_test" />
-      <item itemvalue="Python.test_version" />
-      <item itemvalue="Python.nlpir_version" />
-      <item itemvalue="Python.jieba_and_ltp_version" />
-      <item itemvalue="Python.debug_test" />
+      <item itemvalue="Python.gensim_nlpir_version" />
+      <item itemvalue="Python.gensim_nlpir_versionV2" />
+      <item itemvalue="Python.test_treading" />
+      <item itemvalue="Python.mutiprocessing" />
+      <item itemvalue="Python.get_business" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.nlpir_version" />
-        <item itemvalue="Python.debug_test" />
-        <item itemvalue="Python.jieba_and_ltp_version" />
-        <item itemvalue="Python.test_version" />
-        <item itemvalue="Python.nlpir_test" />
+        <item itemvalue="Python.get_business" />
+        <item itemvalue="Python.gensim_nlpir_version" />
+        <item itemvalue="Python.test_treading" />
+        <item itemvalue="Python.mutiprocessing" />
+        <item itemvalue="Python.gensim_nlpir_versionV2" />
       </list>
     </recent_temporary>
   </component>
@@ -323,17 +370,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.62309366" />
-      <window_info anchor="bottom" id="调试" order="7" weight="0.32824427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15226555" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.6226827" />
+      <window_info anchor="bottom" id="调试" order="7" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.082878955" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.4863686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="运行" order="7" visible="true" weight="0.8102508" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.27699018" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="找到" order="7" weight="0.05882353" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,25 +396,25 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="找到" order="7" weight="0.05882353" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
+      <window_info anchor="bottom" id="运行" order="9" weight="0.0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.62309366" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="运行" order="9" visible="true" weight="0.12322792" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32897604" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.082878955" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="调试" order="13" weight="0.32824427" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.4874591" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -374,99 +422,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tfidfV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/scipy/sparse/compressed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17974">
-          <caret line="946" selection-start-line="946" selection-end-line="946" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf_with_gensim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlpir_gensim_tfidf_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlpir_version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidfV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Province_city_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/stop_words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85386">
-          <caret line="4494" column="4" selection-start-line="4494" selection-start-column="4" selection-end-line="4494" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf_with_gensim.py">
+    <entry file="file://$PROJECT_DIR$/tfidf_with_gensim_nlpir.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,19 +444,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="49" column="27" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Province_city_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Province_city_process.py" />
     <entry file="file://$PROJECT_DIR$/tfidf-data.txt" />
     <entry file="file://$PROJECT_DIR$/data/stop_words.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -502,9 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,22 +481,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="49" column="27" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tfidf-data.txt" />
     <entry file="file://$PROJECT_DIR$/output.txt" />
     <entry file="file://$PROJECT_DIR$/data/provinceandcity.txt" />
-    <entry file="file://$PROJECT_DIR$/data/Province_city_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Province_city_process.py" />
     <entry file="file://$PROJECT_DIR$/data/stop_words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85386">
@@ -559,107 +508,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/2.8G_result_with_sklearn.txt">
+    <entry file="file://$PROJECT_DIR$/output/2.8G_result_with_sklearn.txt" />
+    <entry file="file://$PROJECT_DIR$/nlpir_gensim_tfidf_model.py" />
+    <entry file="file://$PROJECT_DIR$/tfidfV2.py" />
+    <entry file="file://$PROJECT_DIR$/jieba_and_ltp_version.py" />
+    <entry file="file://$PROJECT_DIR$/debug_test.py" />
+    <entry file="file://$PROJECT_DIR$/datasample/random_id_1000.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlpir_gensim_tfidf_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidfV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jieba_and_ltp_version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf_with_sklearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="85" column="54" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thulac_version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" selection-start-line="8" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf_with_gensim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasample/get_corpus_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/sub_set.py" />
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/datasample/get_random_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thulac_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_version.py" />
+    <entry file="file://$PROJECT_DIR$/word_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlpir_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasample/get_bd_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/pynlpir/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="235" column="31" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mutiprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/test_treading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/gensim/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21945">
+          <caret line="1159" column="72" selection-start-line="1159" selection-start-column="72" selection-end-line="1159" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tfidf_with_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="96" column="11" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tfidf_with_gensim_nlpir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gensim_nlpir_versionV4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_business.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug_test.py">
+    <entry file="file://$PROJECT_DIR$/gensim_nlpir_versionV2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="418">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="53" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#19#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlpir_version.py">
+    <entry file="file://$PROJECT_DIR$/gensim_nlpir_versionV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="829">
+          <caret line="163" column="40" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#19#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/pynlpir/__init__.py">
+    <entry file="file://$PROJECT_DIR$/gensim_nlpir_version.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2983">
-          <caret line="163" column="72" selection-start-line="163" selection-start-column="72" selection-end-line="163" selection-end-column="72" />
+        <state relative-caret-position="209">
+          <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
